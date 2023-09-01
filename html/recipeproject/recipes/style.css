@@ -1,0 +1,38 @@
+body{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: darkred;
+}
+.grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    place-items: start end;
+    
+}
+
+img{
+    max-width: 400px;
+}
+
+button{
+    display: grid;    
+    padding: 10px 20px;
+    background-color: #febe01;
+    
+
+            
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+/* * { */
+    /* border: 2px solid darkred; */
+/* } */

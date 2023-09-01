@@ -1,0 +1,27 @@
+body{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+button{
+    background-color: #febe01;
+    border-radius: 4px;
+}
+a{
+    background-color: #febe01;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+
+    display: inline-block;
+}
+
+

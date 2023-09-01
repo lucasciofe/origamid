@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    margin: 50px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+span{
+    color: #febe01;
+}
+p{
+ color: #b2b2b2;
+}
+
+h2 {
+    margin: 0px;
+
+}
+
+/* set up of boxes */
+.box {
+    background-color: #000;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+button{
+    background-color: #febe01;
+    border-radius: 8px;
+}
+
+a{
+    background-color: #febe01;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    
+    display: inline-block;
+}
+
+/* *{
+    box-shadow: 0 0 0 1px darkred;
+} */
