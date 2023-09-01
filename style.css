@@ -2,6 +2,7 @@ h1 {
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(7, 51, 131);
+    text-align: center;
 }
 
 button{
@@ -17,3 +18,26 @@ a{
     
     display: inline-block;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.container-box {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+.container-box title{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
