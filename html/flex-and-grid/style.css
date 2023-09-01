@@ -1,0 +1,94 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+/* classes defined */
+.header{
+    background-color: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    background-color: tomato;
+
+}
+
+
+/* CSS flexbox 1 */
+
+
+
+
+.flex{
+    display: flex;
+    justify-content: center
+}
+
+.photo-flex {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex-direction: row-reverse; 
+}
+ 
+.photo-flex-item{
+    border: 8px solid #fff;
+    width: 200px;
+    height: 200px;
+    
+}
+/* standard size of image */
+.photo-flex-item img{
+    width: 200px;
+    height: 200px;
+}
+/* change the order of specific image  */
+.first-item{
+    order: 1;
+    
+}
+
+
+
+/* *{ this line below is for mapping the screen
+    /* border: 1px solid darkred;  
+} */

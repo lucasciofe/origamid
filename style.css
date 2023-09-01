@@ -1,0 +1,19 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(7, 51, 131);
+}
+
+button{
+    background-color: #febe01;
+    border-radius: 8px;
+}
+
+a{
+    background-color: #febe01;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    
+    display: inline-block;
+}
