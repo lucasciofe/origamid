@@ -1,3 +1,10 @@
+body {
+      margin: 0;
+      padding: 0;
+}
+
+
+
 h1 {
     font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
@@ -28,7 +35,7 @@ a{
 }
 
 .container-box {
-    
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -40,4 +47,9 @@ a{
     flex-wrap: wrap;
     
 }
+.container-box link{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
+}
