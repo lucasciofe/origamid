@@ -76,6 +76,7 @@ p {
   font-size: 2rem;
 }
 .button{
+  display: grid;
   background-color: #e21;
   color: #fff;
   padding: 1rem 2rem;
@@ -145,4 +146,31 @@ p {
   position: absolute;
   top: 30px;
   right: -30px;
+}
+
+/* screen responsive */
+@media (max-width: 600px){
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 500px;
+
+  }
+  .introduction::before {
+    content: "";
+    width: 4px;
+    height: 60px;
+    background-color: #e21;
+    position: absolute;
+    top: 260px;
+    left: 50%;
+       
+  }
+  .bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    
+  }
+  
 }
