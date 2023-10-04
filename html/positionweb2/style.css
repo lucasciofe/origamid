@@ -157,18 +157,14 @@ p {
 
   }
   .introduction::before {
-    content: "";
     width: 4px;
     height: 60px;
-    background-color: #e21;
     position: absolute;
     top: 260px;
     left: 50%;
        
   }
   .bar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 40px;
     
   }
